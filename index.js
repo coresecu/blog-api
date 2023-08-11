@@ -13,6 +13,6 @@ app.use("/api/posts", postRoutes)
 app.use('/api/users', userRoutes)
 
 
-app.listen(8800, () => {
+app.listen(3000, () => {
     console.log("Connected~")
 })
